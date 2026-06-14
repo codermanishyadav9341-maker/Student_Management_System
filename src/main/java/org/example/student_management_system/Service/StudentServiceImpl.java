@@ -3,10 +3,12 @@ package org.example.student_management_system.Service;
 import org.example.student_management_system.Model.Student;
 import org.example.student_management_system.Repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class StudentServiceImpl implements StudentService{
 
     @Autowired
